@@ -1,9 +1,10 @@
-/* Gaya Umum */
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
+    background-color: #e6f7e3;
 }
 
 /* Header */
@@ -16,11 +17,11 @@ body {
 }
 
 .logo img {
-    height: 40px; /* Tinggi gambar 40px */
-    width: 159px; /* Lebar gambar 159px */
+    height: 40px;
+    width: 159px;
 }
 
-/* Navigasi Utama */
+/* Navigation Menu */
 .nav-container {
     background-color: #ffffff;
     padding: 10px 30px;
@@ -50,7 +51,7 @@ body {
     color: #1a4d2e;
 }
 
-/* Tombol Header */
+/* Header Button */
 .btn-primary {
     background-color: #ff8c00;
     color: white;
@@ -72,8 +73,6 @@ body {
     align-items: center;
     gap: 50px;
     padding: 50px;
-    padding-top: 20px;
-    background: linear-gradient(180deg, #e6f7e3 0%, #a3e9a4 100%);
 }
 
 .hero-text-container {
@@ -99,7 +98,7 @@ body {
     margin-top: 30px;
 }
 
-/* Tombol Utama */
+/* Main Buttons */
 .btn-primary-main {
     background-color: #ff8c00;
     color: white;
@@ -130,38 +129,36 @@ body {
     color: white;
 }
 
-/* Kontainer Gambar Hero */
+/* Hero Image Container */
 .hero-image-container {
     position: relative;
-    width: 400px;
-    height: 600px;
+    width: 600px;
+    height: 400px;
 }
 
 .hero-image-container img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    z-index: 10;
 }
 
 .badge {
     position: absolute;
-    background-color: #e6f7e3;
+    background-color: #a3e9a4;
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 0.9em;
     font-weight: bold;
     color: #2e8b57;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    z-index: 5;
 }
 
-.badge-top-left {
-    top: 5%;
-    left: 20%;
+.badge-top {
+    top: 25%;
+    left: -15%;
 }
 
-.badge-bottom-right {
+.badge-bottom {
     bottom: 20%;
-    right: 15%;
+    right: -15%;
 }
