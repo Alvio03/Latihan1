@@ -16,7 +16,8 @@ body {
 }
 
 .logo img {
-    height: 40px; /* Sesuaikan ukuran logo */
+    height: 40px; /* Tinggi gambar 40px */
+    width: 159px; /* Lebar gambar 159px */
 }
 
 /* Navigasi Utama */
